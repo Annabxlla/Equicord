@@ -156,7 +156,7 @@ export const settings = definePluginSettings({
     },
     piShockApiKey: {
         type: OptionType.STRING,
-        description: "PiShock API Key | Not needed for ID & Key method",
+        description: "PiShock API Key | This is from the Account menu https://pishock.com/#/account | Not needed for ID & Key method",
         default: "",
         sensitive: true,
     },
